@@ -1,0 +1,70 @@
+ 1840  mkdir git-majonez
+ 1841  cd git-majonez/
+ 1842  git init
+ 1843  touch main.cpp
+ 1844  ls
+ 1845  vim main.cpp
+ 1846  cat main.cpp 
+ 1847  git add main.cpp 
+ 1848  git status
+ 1849  git commit -m"Initial commit"
+ 1850  git status
+ 1851  vim main.cpp 
+ 1852  cat main.cpp 
+ 1853  git add .
+ 1854  git status
+ 1855  git commit -m"Farewell changed"
+ 1856  git log
+ 1857  git remote add origin git@github.com:jarek1992/git-majonez.git
+ 1858  git remote -v
+ 1859  git push -u origin master
+ 1860  git branch
+ 1861  git branch cs
+ 1862  git branch
+ 1863  git checkout cs
+ 1864  git branch
+ 1865  git log
+ 1866  git reset bdea72e417140b0e06a7a76efe0914a1bb18c5a8
+ 1867  git log
+ 1868  git status
+ 1869  git reflog
+ 1870  git reset 4d5e251
+ 1871  git log
+ 1872  git status
+ 1873  git branch
+ 1874  git log
+ 1875  vim main.cpp 
+ 1876  cat main.cpp 
+ 1877  git status
+ 1878  git add .
+ 1879  git status
+ 1880  git commit -m"Greetings"
+ 1881  git status
+ 1882  git log
+ 1883  git branch
+ 1884  git push origin cs
+ 1885  git status
+ 1886  git checkout master
+ 1887  git branch
+ 1888  git merge cs
+ 1889  git status
+ 1890  vim main.cpp 
+ 1891  cat main.cpp 
+ 1892  git status
+ 1893  git commit
+ 1894  git status
+ 1895  cat main.cpp 
+ 1896  git merge cs
+ 1897  cat main.cpp 
+ 1898  git status
+ 1899  git add .
+ 1900  git status
+ 1901  git commit 
+ 1902  git status
+ 1903  git log
+ 1904  history
+ 1905  hisotry | tail -n65
+ 1906  history | tail -n65
+ 1907  history | tail -n67
+ 1908  history | tail -n69
+ 1909  history | tail -n70 > history.txt
